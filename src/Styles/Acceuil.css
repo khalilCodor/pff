@@ -1,0 +1,87 @@
+
+.reservation-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://source.unsplash.com/random') center top / cover;
+  padding-top: 100px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 90%;
+}
+
+.input-container {
+  flex: 1 1 100%;
+}
+
+.input-container-left-border {
+  border-left: 1px solid #ccc;
+  padding-left: 10px;
+}
+
+.select-input,
+.date-input,
+.number-input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  background-color: #f8f8f8;
+}
+
+/* .number-input {
+  width: auto;
+} */
+
+.search-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top:150px;
+  max-width: 90%;
+ 
+}
+
+.card {
+  flex: 1 1 30%;
+  padding: 16px;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  border: solid 2px black;
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+}

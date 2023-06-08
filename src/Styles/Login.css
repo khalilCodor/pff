@@ -1,0 +1,45 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 20px;
+    width: 320px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3a3a3a;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+  .rectangle {
+    position: absolute;
+    height: 100%;
+    width: 41.72%;
+    right: 0;
+    left: 58.28%;
+    background-color: #fff;
+  }
+  .bodyy{
+    background-image: url("../img/Group 48.png");
+height: 600px;
+    background-repeat: no-repeat;
+  }
